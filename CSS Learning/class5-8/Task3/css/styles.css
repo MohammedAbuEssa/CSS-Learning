@@ -1,0 +1,28 @@
+
+.assign-3-shape-1,.assign-3-shape-2,.assign-3-shape-3,.assign-3-shape-4{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("../../../media/css-assignment-5-8.png");
+    background-repeat: no-repeat;
+}
+
+.assign-3-shape-2{
+    background-size: 200px 200px;
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.assign-3-shape-3{
+    background-size: 200px 200px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.assign-3-shape-4{
+    background-size: 200px 200px;
+    background-repeat: repeat;
+    
+}

@@ -1,0 +1,26 @@
+
+div{
+width: 400px;
+background-color: rgb(199, 204, 209);
+/* margin: 5px; */
+padding: 5px;
+/* outline: 5px; */
+}
+
+
+
+.assign-2-shape-2{
+    visibility: hidden; 
+}
+
+
+
+.firstdiv{
+padding: 5px;
+border-left: red 5px solid;
+}
+
+.therddiv{
+    padding: 5px;
+border-left: green 5px solid;
+}

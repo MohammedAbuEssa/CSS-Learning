@@ -1,0 +1,17 @@
+
+div{
+background-color: maroon;
+max-width: 400px;
+padding: 10px;
+margin: 20px;
+max-width: 20;
+min-width: 10;
+max-height: 50px;
+width: fit-content;
+}
+
+
+.div4{
+    
+    overflow: auto;
+}

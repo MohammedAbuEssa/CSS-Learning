@@ -1,0 +1,33 @@
+
+div{
+    display: inline-block;
+    /* height: 200px; */
+    /* width: 400px; */
+    font-size: 50px;
+    text-align: center;
+    background-color: rgba(189, 179, 198, 0.5);
+padding: 40px;
+margin: 5px;
+border-width: 5;
+outline: 5px;
+    outline-color: black;
+    outline-style: solid;
+}
+
+.assign-1-shape-1{
+    border: 5px red solid;
+    outline: 5px;
+    outline-color: black;
+    outline-style: solid;
+    
+}
+
+.assign-1-shape-2{
+border-style: solid;
+border-color: blue green;
+}
+
+.assign-1-shape-3{
+    border-style: dotted;
+    border-color: red green blue yellow;
+    }
