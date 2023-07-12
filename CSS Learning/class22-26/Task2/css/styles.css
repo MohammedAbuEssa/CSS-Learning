@@ -1,0 +1,21 @@
+p {
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    text-transform: capitalize;
+}
+
+.one {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.two {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+
+.three {
+    font-family: 'Jomhuria', sans-serif;
+    font-weight: 400;
+}

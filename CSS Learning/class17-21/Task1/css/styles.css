@@ -1,0 +1,8 @@
+div{
+    text-transform: capitalize;
+    font-size: 150px;
+    text-align: center;
+    text-shadow: 3px 2px 1px red,5px 4px 1px blue,7px 6px 1px purple;
+    /* text-shadow: ; */
+}
+
