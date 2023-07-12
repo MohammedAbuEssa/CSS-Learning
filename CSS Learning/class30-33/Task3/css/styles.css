@@ -1,0 +1,49 @@
+ul {
+  width: 400px;
+  list-style: none;
+}
+
+ul li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.html,
+.CSS,
+.js {
+  background-color: #eee;
+  padding: 10px;
+}
+
+.html,
+.CSS {
+  list-style-position: outside;
+}
+
+.html ol {
+  list-style: decimal;
+  list-style-position: outside;
+}
+
+.html ol li {
+  background-color: white;
+}
+
+.CSS ol {
+  list-style: upper-roman;
+  list-style-position: outside;
+}
+
+.CSS ol li {
+  background-color: white;
+}
+
+.js ul {
+  list-style: circle;
+  list-style-position: inside;
+}
+
+.js ul li {
+  background-color: white;
+  margin-left: -20px;
+}

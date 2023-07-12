@@ -1,0 +1,51 @@
+caption {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+table {
+  margin: 0 auto;
+  text-align: center;
+  font-family: cursive;
+  text-transform: capitalize;
+  border-bottom-style: solid;
+  border-bottom-left-radius: 2px;
+  border-bottom-color: #5cbbb2;
+}
+
+thead {
+  /* background-color: #404040; */
+  color: white;
+  /* width: 600px; */
+}
+
+table thead tr th {
+  background-color: #404040;
+  padding: 20px 40px;
+  color: #fff;
+}
+
+table tr td {
+  background-color: #eeeeee;
+  padding: 20px 10px;
+}
+
+button {
+  color: white;
+  padding: 5px 10px;
+  border-style: none;
+  margin: 2px;
+}
+
+.view {
+  background-color: #03a9f4;
+}
+
+.delete {
+  background-color: #e91e63;
+}
