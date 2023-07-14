@@ -1,0 +1,28 @@
+body {
+  counter-reset: section;
+}
+
+p {
+  background-color: #efefef;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+  width: 645px;
+  font-size: 2em;
+  border-right: 7px solid #f44336;
+  position: relative;
+}
+
+p::before {
+  counter-increment: section;
+  content: counter(section);
+  position: absolute;
+  background-color: #f44336;
+  color: #fff;
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  top: 0;
+  left: 1px;
+  line-height: 2.3;
+}
