@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+.grid {
+  background-color: #eee;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr) auto;
+  grid-template-areas:
+    "osama osama osama osama osama osama osama osama ahmed ahmed shady shady"
+    "med med mah mah mah mah mah mah mah mah mah mah"
+    "ezz ezz ezz ezz ezz ezz ezz ezz ezz ezz ezz ezz"
+    "medSayed medSayed medSayed ibr ibr ibr gam gam gam ema ema ema";
+  gap: 10px;
+  font-family: sans-serif;
+  padding: 20px;
+}
+.grid div {
+  padding: 0 20px;
+  border-bottom: 2px solid #ff3d00;
+  position: relative;
+}
+.grid div::after {
+  content: "``";
+  position: absolute;
+  font-weight: bolder;
+  font-size: 50px;
+  color: #b1bbc8;
+  bottom: -30px;
+  right: 5px;
+}
+.osama {
+  background-color: #fff;
+  grid-area: osama;
+  grid-column: 1 / span 6;
+}
+.ahmed {
+  background-color: #fff;
+  grid-area: ahmed;
+  grid-column: 7 / span 3;
+}
+.shady {
+  background-color: #000;
+  color: #fff;
+  grid-area: shady;
+  grid-column: 10 / span 3;
+  grid-row: 1 / span 3;
+}
+.mohamed {
+  background-color: #fff;
+  grid-area: med;
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 2;
+}
+.mahmoud {
+  background-color: #000;
+  grid-area: mah;
+  grid-column: 4 / span 6;
+  color: #fff;
+}
+.ezzeldin {
+  background-color: #fff;
+  grid-area: ezz;
+  grid-column: 4 / span 6;
+}
+.med-sayed {
+  background-color: #fff;
+  grid-area: medSayed;
+}
+.ibrahim {
+  background-color: #000;
+  grid-area: ibr;
+  color: #fff;
+}
+.gamal {
+  background-color: #fff;
+  grid-area: gam;
+}
+.eman {
+  background-color: #fff;
+  grid-area: ema;
+}
+small {
+  color: #b1bbc8;
+  position: relative;
+  top: -17px;
+}

@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.parent {
+  display: flex;
+  width: 600px;
+  height: 300px;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.parent > div {
+  background-color: red;
+  color: white;
+  width: calc(90% / 3);
+  display: inline-flex;
+  justify-content: center;
+}
